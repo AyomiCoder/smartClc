@@ -1,0 +1,114 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.link{
+  padding: 10px;
+  color: rgb(59, 121, 255);
+
+}
+
+.link:hover{
+  color: rgb(180, 180, 180);
+}
+
+.nav-bar{
+  animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.about, .home{
+  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+
+
+.resetInput, .resetAll {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  /* border: 2px solid #d90429; */
+  background: #d90429;
+  margin: 5px;
+}
+.resetInput:hover {
+  background: #fff;
+  color: #000;
+  border: 2px solid black;
+}
+
+.resetAll:hover {
+  background: #fff;
+  color: #000;
+  border: 2px solid black;
+}
+
+.plus, .times{
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  /* border: 2px solid #007e00; */
+  background: #007e00;
+  margin: 5px;
+}
+
+.plus:hover {
+  background: #fff;
+  color: #000;
+  border: 2px solid black;
+}
+
+.times:hover {
+  background: #fff;
+  color: #000;
+  border: 2px solid black;
+}
+
+.minus, .divide{
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  /* border: 2px solid #e9760a; */
+  background: #e9760a;
+  margin: 5px;
+}
+
+.minus:hover {
+  background: #fff;
+  color: #000;
+  border: 2px solid black;
+}
+
+.divide:hover {
+  background: #fff;
+  color: #000;
+  border: 2px solid black;
+}
